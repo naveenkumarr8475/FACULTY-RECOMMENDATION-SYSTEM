@@ -1,0 +1,58 @@
+# FACULTY/PROJECT RECOMMENDATION
+
+## Overview
+
+Welcome to the FACULTY/PROJECT RECOMMENDATION GitHub repository! This system provides a comprehensive solution for managing academic data, including information about departments, domains, teachers, projects, papers, students, teams, expertise relationships, and project-team relationships.
+
+## Features
+
+### Admin Module
+
+- **Admin Login:** Secure login for system management with access to all database tables and schemas.
+- **User Management:** Different user roles and permissions for effective system administration.
+- **Table Selection:** Administrators can select and manage various tables representing academic entities.
+- **Add, Update, and Delete Operations:** Admins can add new information, update existing records, and delete outdated or incorrect data.
+- **Search Functionality:** Powerful search feature for efficient data retrieval based on specified criteria.
+- **Dynamic Table Display:** Visualization of tables in the GUI dynamically based on admin selection.
+- **Error Handling:** Implementation of error-handling mechanisms for a smooth user experience.
+
+### Student Module
+
+- **Secure Student Login:** Students have secure access to project recommendations based on academic interests and faculty expertise.
+- **Teacher Search:** Students can search for faculty based on department, expertise, project title, and paper title.
+- **Team Search:** View teams with details such as team ID, project title, team head, status, teacher name, and domain.
+- **Project Search:** Discover projects based on teacher ID, domain, project ID, project title, teacher name, and problem statement.
+- **Member and Friend Search:** Find friends and fellow students based on shared interests.
+- **Display:** Showcasing faculty members with the number of papers and projects they have worked on.
+- **Additional Actions:** Students can edit their details, add interests, and enhance their academic experience.
+
+### Faculty Module (Coming Soon)
+
+- **Faculty Login:** Faculty can log in with their ID and password.
+- **View and Manage Projects:** Faculty can view and manage assigned projects along with associated student details.
+- **Update Expertise:** Faculty can update their expertise areas and personal information.
+
+## System Architecture
+
+- Utilizes a client-server architecture with a centralized MySQL database.
+- Developed using Python and Tkinter library for the GUI.
+- MySQL database for storing faculty, expertise, students, interests, departments, domains, teams, and members.
+
+## Database Design
+
+- Organized schema with tables for faculty, projects, expertise, students, interests, departments, domains, teams, and members.
+- Well-defined relationships between tables for efficient data retrieval.
+
+## Implementation
+
+- Programming languages: Python for the front end, MySQL for the database.
+- GUI development using Tkinter and PIL for image handling.
+
+## Future Enhancements
+
+- Authenticated login for different users.
+- Population of true data for over 3-5 years.
+- Integration with additional modules for event management and research publications.
+- Implementation of recommendation algorithms for personalized project suggestions.
+- Mobile application for better accessibility by students and teachers.
+
